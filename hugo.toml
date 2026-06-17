@@ -2,6 +2,7 @@ baseURL = "https://junya-masuda.github.io/"
 languageCode = "ja"
 title = "junya-masuda"
 theme = "PaperMod"
+buildFuture = true
 
 [params]
   math = true
