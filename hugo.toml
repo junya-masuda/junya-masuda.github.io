@@ -11,5 +11,5 @@ buildFuture = true
   enable = true
 
 [markup.goldmark.extensions.passthrough.delimiters]
-  block = [["\$\$", "\$\$"]]
-  inline = [["\$", "\$"]]
+  block = [["76316", "76316"]]
+  inline = [["$", "$"]]
