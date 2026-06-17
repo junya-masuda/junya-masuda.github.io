@@ -6,6 +6,11 @@ buildFuture = true
 
 [params]
   math = true
+  homeInfoParams = {Title = "junya-masuda", Content = "学んだことをアウトプットするサイト"}
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/junya-masuda"
 
 [markup.goldmark.extensions.passthrough]
   enable = true
