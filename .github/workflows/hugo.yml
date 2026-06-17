@@ -27,16 +27,10 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Check theme
-        run: ls themes/PaperMod/layouts/ || echo "THEME MISSING"
-      - name: List content
-        run: find content -type f
       - uses: actions/configure-pages@v5
         id: pages
       - name: Build
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: List public
-        run: find public -type f | sort
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
