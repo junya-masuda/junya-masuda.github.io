@@ -1,0 +1,7 @@
+baseURL = "https://junya-masuda.github.io/"
+languageCode = "ja"
+title = "junya-masuda"
+theme = "PaperMod"
+
+[params]
+  math = true
